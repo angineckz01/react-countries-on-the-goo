@@ -1,0 +1,14 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.visited-flags-container {
+    border: 1px solid salmon;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+.visited-flags-container img{
+    width: 120px;
+    margin-right: 8px;
+}
